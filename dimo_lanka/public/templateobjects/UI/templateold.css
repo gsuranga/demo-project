@@ -1,0 +1,328 @@
+ 
+
+body {
+    background-color: #ededed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-variant: normal;
+    color: #898989;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(synlime/images/bg.jpg);
+    background-repeat: repeat;
+    background-position: left top;
+}
+#mainTable {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+#mainTable #headerRow {
+    height: 77px;
+    background-color: #009933;
+    background-image: url(synlime/images/headerBg.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size:cover;
+}
+#mainTable #menuRow {
+    height: 43px;
+    background-image: url(synlime/images/menurep.png);
+    background-repeat: repeat-x;
+    background-position: left top;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+#mainTable #footerRow {
+    height: 67px;
+    padding-top: 12px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-image: url(synlime/images/footerrep.png);
+    background-repeat: repeat-x;
+    background-position: left top;
+}
+
+#mainTable #menuRow td {
+    vertical-align: top;
+}
+#mainTable #headerRow td #logo {
+    float: left;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+#mainTable #headerRow td #userAndTime {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 24px;
+    font-weight: normal;
+    font-variant: normal;
+    color: #FFF;
+    padding: 0px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-align:right;
+} 
+
+
+
+input[type=text], input[type=password],textarea {
+    background-color: whitesmoke;
+    border:1px solid #d1d1d1;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding:5px;
+    width: 250px;
+    color: #898989;
+    font-size: 13px;
+}
+input[type=text]:focus, input[type=password]:focus, textarea:focus{
+    outline: 0;	
+    -webkit-box-shadow: 0px 0px 10px 1px #e7e7e7;
+    -moz-box-shadow: 0px 0px 10px 10px #e7e7e7;
+    box-shadow: 0px 0px 10px 1px #e7e7e7;
+    background:#FFF;
+}
+input[type=submit]{
+    background-color:#8bb628;
+    background-image: none;
+    border: 1px solid #739421;
+    color: #FFF;
+    background-repeat: no-repeat;
+    margin: 0px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+
+}
+input[type=submit]:hover{
+    background-color:#97cc1e;
+    -webkit-box-shadow: 0px 0px 10px 1px #8bb628;
+    -moz-box-shadow: 0px 0px 10px 10px #8bb628;
+    box-shadow: 0px 0px 10px 1px #8bb628;
+    cursor:pointer;
+    cursor:hand;
+}
+input[type=button], input[type=reset]{
+    background-color:#ededed;
+    background-image: none;
+    border: 1px solid #CCC;
+    color: #666;
+    background-repeat: no-repeat;
+    margin: 0px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+
+}
+input[type=button]:hover, input[type=reset]:hover{
+    background-color:#e3e1e1;
+    -webkit-box-shadow: 0px 0px 10px 1px #CCC;
+    -moz-box-shadow: 0px 0px 10px 10px #CCC;
+    box-shadow: 0px 0px 10px 1px #CCC;
+    cursor:pointer;
+    cursor:hand;
+}
+input[type=button]:focus, input[type=reset]:focus, input[type=submit]:focus{
+    outline:0;
+}
+select{
+    background-color: whitesmoke;
+    border:1px solid #d1d1d1;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding:5px;
+    width: 262px;
+    color: #898989;
+}
+select:focus{
+    outline: 0;	
+    -webkit-box-shadow: 0px 0px 10px 1px #e7e7e7;
+    -moz-box-shadow: 0px 0px 10px 10px #e7e7e7;
+    box-shadow: 0px 0px 10px 1px #e7e7e7;
+    background:#FFF;
+}
+
+
+.TitleHeader {
+    font-weight: bold;
+    color: #FFF;
+    padding: 10px;
+    width: auto;
+    background-color: #093;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.PageTile {
+    font-family:  Georgia, "Times New Roman", Times, serif;
+    padding: 0px;
+    font-size: 22px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-align: left;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    border-bottom:solid 1px #CCC;
+}
+
+.SubTile {
+    font-family:  Georgia, "Times New Roman", Times, serif;
+    padding: 8px;
+    font-size: 17px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-align: left;
+    margin-top: 0px;
+}
+.Box{
+    -webkit-box-shadow: 0px 0px 10px 1px #CCC;
+    -moz-box-shadow: 0px 0px 10px 10px #CCC;
+    box-shadow: 0px 0px 10px 1px #CCC;
+    -webkit-border-radius: 5px;
+    padding:0px;
+    margin:0px 0px 30px 0px;
+}
+.SystemTable {
+    margin: 0px;
+    padding: 0px;
+}
+.SystemTable thead tr{
+    background-color: #67C76F;
+    color: #FFF;
+}
+.SystemTable thead tr th{
+    padding: 5px;
+}
+.SystemTable tbody tr{
+    background-color: #EAEAEA;
+}
+.TableHover tbody tr:hover{
+    background-color: #C1FFC1;
+}
+.SystemTable tbody tr td{
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.regular-checkbox {
+    display: none;
+}
+
+.regular-checkbox + label {
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+
+.regular-checkbox + label:active, .regular-checkbox:checked + label:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked + label {
+    background-color: #e9ecee;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: #99a1a7;
+}
+
+.regular-checkbox:checked + label:after {
+    content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    color: #99a1a7;
+}
+.regular-radio {
+    display: none;
+}
+
+.regular-radio + label {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 9px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.regular-radio:checked + label:after {
+    content: ' ';
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    position: absolute;
+    top: 3px;
+    background: #99a1a7;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+    text-shadow: 0px;
+    left: 3px;
+    font-size: 32px;
+}
+
+.regular-radio:checked + label {
+    background-color: #e9ecee;
+    color: #99a1a7;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.regular-radio + label:active, .regular-radio:checked + label:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+} 

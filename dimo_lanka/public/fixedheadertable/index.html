@@ -1,0 +1,431 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <link href="css/fixedheadertable.css" rel="stylesheet" media="screen" />
+        <link href="template.css" rel="stylesheet" media="screen" />
+        <script src="js/jquery-1.9.1.js"></script>
+
+        <script src="js/jquery.fixedheadertable.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+//    $('#myTable01').fixedHeaderTable({footer: true, cloneHeadToFoot: true, altClass: 'odd', autoShow: false});
+                $('#myTable01').fixedHeaderTable({altClass: 'odd', autoShow: false});
+                $('#myTable01').fixedHeaderTable('show', 1000);
+
+            });
+        </script>
+        <style type="text/css">
+
+            .dropdownwrap{
+                height:auto;
+                float:left;
+                margin:0px 0px 20px 0px;
+                /*background-color:white;*/
+                /*display:none;*/
+                padding:20px;
+            }
+            .dropdownwrap_pm{
+                height:auto;
+                float:left;
+                margin:0px 0px 20px 0px;
+                background-color:white;
+                display:none;
+                padding:20px;
+            }
+            .dropdownwrap_not_achieved{
+                height:auto;
+                float:left;
+                margin:0px 0px 20px 0px;
+                background-color:white;
+                display:none;
+                padding:20px;
+            }
+            .new_not_achive_slide_div{
+                height:auto;
+                float:left;
+                margin:0px 0px 20px 0px;
+                background-color:white;
+                display:none;
+                padding:20px;
+            }
+
+            .container{
+                width:100%;
+                float:left;
+            }
+
+            .container h2{
+                width:100%;
+                float:left;
+                padding:40px 0px;
+                margin:0;
+                text-align:center;
+                font-family: 'Patrick Hand SC', cursive;
+                font-size:36px;
+                color:#434343;
+            }
+
+            .dropdownwrap h3{
+                width:100%;
+                float:left;
+                padding:40px 0px;
+                margin:0;
+                text-align:center;
+                font-family: 'Patrick Hand SC', cursive;
+                font-size:36px;
+                color:white;
+            }
+
+            .container p{
+                font-family: 'Open Sans', sans-serif;
+                font-size:10pt;
+                color:#B7B7B7;
+                text-align:center;
+                padding-bottom:50px;
+            }
+
+            .dropdownwrap p{
+                font-family: 'Open Sans', sans-serif;
+                font-size:10pt;
+                color:white;
+                text-align:center;
+                padding-bottom:50px;
+            }
+
+            .container a,
+            .container a:visited{
+                padding:8px 14px;
+                font-size:12pt;
+                border:1px solid #CCCCCC;
+                background-color:#DDDDDD;
+                text-decoration:none;
+                text-transform:uppercase;
+                color:#424242;
+                border-radius:3px;
+            }
+
+            .container a:hover{
+                padding:8px 14px;
+                font-size:12pt;
+                border:1px solid #F2F2F2;
+                background-color:white;
+                color:#CCCCCC;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dropdownwrap">
+            <div class="container_12">
+                <div class="grid_8 height250">
+                    <table class="SytemTable" id="myTable01" cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <td>Browser</td>
+                                <td>Visits</td>
+                                <td>Pages/Visit</td>
+                                <td>Avg. Time on Site</td>
+                                <td>% New Visits</td>
+                                <td>Bounce Rate</td>
+                                <td>Bounce Rate</td>
+                                <td>Bounce Rate</td>
+                                <td>Bounce Rate</td>
+                                <td>Bounce Rate</td>
+                                <td>Bounce Rate</td>
+                                <td>Bounce Rate</td>
+                                <td>Bounce Rate</td>
+                                <td>Bounce Rate</td>
+                                <td>Bounce Rate</td>
+                                <td>Bounce Rate</td>
+                                <td>Bounce Rate</td>
+                                <td>Bounce Rate</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+                            <tr>
+                                <td>Firefox</td>
+                                <td>1,990</td>
+                                <td>3.11</td>
+                                <td>00:04:22</td>
+                                <td>70.00%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                                <td>32.61%</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

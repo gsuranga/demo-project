@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 13, 2014, 11:34:16 PM
+    Author     : shdinesh.99
+*/
+
+.dealer_ranking_css {
+    margin:0px;padding:0px;
+    width:100%;
+    border:1px solid #000000;
+
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}.dealer_ranking_css table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}.dealer_ranking_css tr:last-child td:last-child {
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.dealer_ranking_css table tr:first-child td:first-child {
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}
+.dealer_ranking_css table tr:first-child td:last-child {
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+}.dealer_ranking_css tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+}.dealer_ranking_css tr:hover td{
+    background-color:#dedee0;
+
+
+}
+.dealer_ranking_css td{
+    vertical-align:middle;
+
+    background-color:#ffffff;
+
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:left;
+    padding:7px;
+    font-size:11px;
+    font-family:Verdana;
+    font-weight:normal;
+    color:#000000;
+}.dealer_ranking_css tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}.dealer_ranking_css tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}.dealer_ranking_css tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.dealer_ranking_css tr:first-child td{
+    background:-o-linear-gradient(bottom, #e0d9d9 5%, #f7efef 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e0d9d9), color-stop(1, #f7efef) );
+    background:-moz-linear-gradient( center top, #e0d9d9 5%, #f7efef 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0d9d9", endColorstr="#f7efef");	background: -o-linear-gradient(top,#e0d9d9,f7efef);
+
+    background-color:#e0d9d9;
+    border:0px solid #000000;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:12px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#000000;
+}
+.dealer_ranking_css tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #e0d9d9 5%, #f7efef 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e0d9d9), color-stop(1, #f7efef) );
+    background:-moz-linear-gradient( center top, #e0d9d9 5%, #f7efef 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0d9d9", endColorstr="#f7efef");	background: -o-linear-gradient(top,#e0d9d9,f7efef);
+
+    background-color:#e0d9d9;
+}
+.dealer_ranking_css tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.dealer_ranking_css tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
+}

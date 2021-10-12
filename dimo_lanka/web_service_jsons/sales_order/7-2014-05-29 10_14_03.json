@@ -1,0 +1,1 @@
+{"officer_id":"54","data":"{\"user_id\":\"54\",\"customer_details\":[],\"order\":[{\"ID\":\"1\",\"date_of_bill\":\"2014-05-29 10:05:50\",\"BillAmount\":\"158.5\",\"items\":[{\"qty\":\"2\",\"item_id\":\"11\",\"price\":\"20.5\"},{\"qty\":\"5\",\"item_id\":\"14\",\"price\":\"23.5\"}],\"dealer_id\":\"3\"}],\"new_dealers\":[],\"new_garages\":[]}"}
