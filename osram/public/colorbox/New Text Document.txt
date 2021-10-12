@@ -1,0 +1,38 @@
+<link href="colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+	<script src="colorbox/jquery.min.js" type="text/javascript"></script>
+	<script src="colorbox/jquery.colorbox.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+ <!--Colorbox Start-->
+        
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+			
+			$(".Customer01").colorbox({width:"510px", inline:true, href:"#customer01"});
+			//Example of preserving a JavaScript event for inline calls.
+			
+		});	
+	</script> 
+    
+    <div style='display:none;'>
+
+    <div id='customer01' style='padding:0px;'>
+    <h1 class="PageTitle">Milton Galappaththi</h1>
+    <p class="PagePara">I have been using CEY HOTELIER for about a year and a half now and I am very impressed by its reliability, the quality and speed of responses. I found CEY HOTELIER simple and user friendly too.  I specially like the simple interface which reduces the time to input data.<br />
+Great simple  program, I recommend it to everyone.
+
+<br /><br />
+CEO<br />
+Milton's Beach Resorts<br />
+Unawatuna, Galle, Srilanka.</p>
+    </div>
+    
+    </div>
+    
+    <!--Colorbox end-->
